@@ -4,7 +4,7 @@ from .models import Students
 
 @admin.register(Students)
 class StudentsAdmin(admin.ModelAdmin):
-    list_display = ['Roll_no' , 'F_name','L_name']
+    list_display = ['roll_no' , 'f_name','l_name']
     class Meta():
         model= Students
     
